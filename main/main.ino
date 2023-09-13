@@ -7,10 +7,8 @@
 #include "led.h"
 #include "music.h"
 
-
 // Counters
   uint8_t animation_i = 1;  //do not initialize to ZERO !!!!!!
-
   
 // Timer variables
   unsigned long last_change_anim = millis();
@@ -164,7 +162,7 @@ void loop(){
           case 11:
             // Sodium Flashes
             set_color(color1, 255<<4, 30<<4, 0<<4);
-            set_color(color2, 5<<4,20<<4, 0<<4,2<<4, 0-<<4,0<<4);
+            set_color(color2, 5<<4,20<<4, 0<<4,2<<4, 0<<4,0<<4);
           break;
           case 12:
             //BLACK BACKGROUND with WHITE FLASHES
